@@ -1,0 +1,10 @@
+/Users/2ahumbertmuller/Projects/Gestion_Facturation/Gestion_Facturation/obj/Debug/net9.0/Gestion_Facturation.csproj.AssemblyReference.cache
+/Users/2ahumbertmuller/Projects/Gestion_Facturation/Gestion_Facturation/obj/Debug/net9.0/Gestion_Facturation.GeneratedMSBuildEditorConfig.editorconfig
+/Users/2ahumbertmuller/Projects/Gestion_Facturation/Gestion_Facturation/obj/Debug/net9.0/Gestion_Facturation.AssemblyInfoInputs.cache
+/Users/2ahumbertmuller/Projects/Gestion_Facturation/Gestion_Facturation/obj/Debug/net9.0/Gestion_Facturation.AssemblyInfo.cs
+/Users/2ahumbertmuller/Projects/Gestion_Facturation/Gestion_Facturation/obj/Debug/net9.0/Gestion_Facturation.csproj.CoreCompileInputs.cache
+/Users/2ahumbertmuller/Projects/Gestion_Facturation/Gestion_Facturation/obj/Debug/net9.0/Gestion_Facturation.MvcApplicationPartsAssemblyInfo.cs
+/Users/2ahumbertmuller/Projects/Gestion_Facturation/Gestion_Facturation/obj/Debug/net9.0/Gestion_Facturation.MvcApplicationPartsAssemblyInfo.cache
+/Users/2ahumbertmuller/Projects/Gestion_Facturation/Gestion_Facturation/obj/Debug/net9.0/Gestion_Facturation.RazorAssemblyInfo.cache
+/Users/2ahumbertmuller/Projects/Gestion_Facturation/Gestion_Facturation/obj/Debug/net9.0/Gestion_Facturation.RazorAssemblyInfo.cs
+/Users/2ahumbertmuller/Projects/Gestion_Facturation/Gestion_Facturation/obj/Debug/net9.0/Gestion_Facturation.sourcelink.json

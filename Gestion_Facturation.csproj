@@ -1,0 +1,31 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <Nullable>enable</Nullable>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <UserSecretsId>aspnet-Gestion_Facturation-756685d3-10d4-4bb1-870f-1230f758a75a</UserSecretsId>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <None Update="app.db" CopyToOutputDirectory="PreserveNewest" ExcludeFromSingleFile="true"/>
+    </ItemGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" Version="8.0.2"/>
+        <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="8.0.2"/>
+        <PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="8.0.2"/>
+        <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.2"/>
+        <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="8.0.2">
+          <PrivateAssets>all</PrivateAssets>
+          <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+        </PackageReference>
+        <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="8.0.2"/>
+        <PackageReference Include="Microsoft.Extensions.Caching.Memory" Version="8.0.1" />
+        <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="8.0.1" />
+        <PackageReference Include="Microsoft.Extensions.DependencyModel" Version="8.0.2" />
+        <PackageReference Include="Microsoft.Extensions.Logging" Version="8.0.1" />
+        <PackageReference Include="Pomelo.EntityFrameworkCore.MySql" Version="8.0.2"/>
+    </ItemGroup>
+
+</Project>
