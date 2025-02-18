@@ -1,6 +1,9 @@
 # Default ignored files
 /shelf/
 /workspace.xml
+/appsettings.json
+/appsettings.Development.json
+/app.db
 # Rider ignored files
 /projectSettingsUpdater.xml
 /contentModel.xml
