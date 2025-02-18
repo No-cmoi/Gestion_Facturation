@@ -1,17 +1,16 @@
 using Microsoft.AspNetCore.Identity;
 using Gestion_Facturation.Data;
 using Microsoft.EntityFrameworkCore;
-using Pomelo.EntityFrameworkCore.MySql.Infrastructure;
+
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Configuration du DbContext
+// Configuration de la chaîne de connexion MySQL
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
-    options.UseMySql(
-        builder.Configuration.GetConnectionString("GestionFacturation"),
-        new MySqlServerVersion(new Version(8, 2, 20)) // Spécifiez votre version de MySQL
-    ));
-
+    options.UseMySql(builder.Configuration.GetConnectionString("DefaultConnection"),
+        new MySqlServerVersion(new Version(8, 3, 9)),
+        optionsBuilder => optionsBuilder.EnableRetryOnFailure(5, TimeSpan.FromSeconds(10),null )
+        ));
 
 builder.Services.AddDatabaseDeveloperPageExceptionFilter();
 
