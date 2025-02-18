@@ -1,0 +1,25 @@
+# Ignore build results
+bin/
+obj/
+
+# Ignore user-specific files
+.idea/
+.vscode/
+
+# Ignore appsettings.json and sensitive data
+appsettings.json
+appsettings.Development.json
+
+# Ignore local database files
+app.db
+
+# Ignore Visual Studio for Mac/Windows files
+.vs/
+.vs2019/
+.vs2017/
+
+# Ignore Rider files
+.idea/
+
+# Ignore package lock
+package-lock.json
